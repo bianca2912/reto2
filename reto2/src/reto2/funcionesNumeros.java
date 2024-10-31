@@ -1,9 +1,8 @@
 package reto2;
 
+import java.util.Scanner;
 public class funcionesNumeros {
-	package Tema4;
 
-	import java.util.Scanner;
 
 	public class funciones {
 		
@@ -53,7 +52,8 @@ public class funcionesNumeros {
 		}
 
 
-		}
+	}
+}
 		
 		
 	

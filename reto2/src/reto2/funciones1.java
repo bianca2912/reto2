@@ -20,34 +20,7 @@ public class funciones1 {
 		}
 	}
 	
-	public static void menuLongitud(Scanner scanner) {
-        int option;
-        do {
-            System.out.println("Selecciona la conversión de longitud:");
-            System.out.println("1. Millas a Kilómetros");
-            System.out.println("2. Kilómetros a Millas");
-            System.out.println("0. Salir");
-            option = scanner.nextInt();
-
-            switch (option) {
-                case 1:
-                    System.out.print("Ingrese millas: ");
-                    double millas = scanner.nextDouble();
-                    System.out.println(millas + " millas = " + millasAKilometros(millas) + " kilómetros");
-                    break;
-                case 2:
-                    System.out.print("Ingrese kilómetros: ");
-                    double kilometros = scanner.nextDouble();
-                    System.out.println(kilometros + " kilómetros = " + kilometrosAMillas(kilometros) + " millas");
-                    break;
-                case 0:
-                    System.out.println("Volviendo al menú principal.");
-                    break;
-                default:
-                    System.out.println("Opción inválida. Intente de nuevo.");
-            }
-        } while (option != 0);
-    }
+	
 	
 	public static void menuPeso(Scanner scanner) {
         int option;
